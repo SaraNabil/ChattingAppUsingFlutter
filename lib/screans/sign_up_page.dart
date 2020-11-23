@@ -78,7 +78,6 @@ class _SignUpPageState extends State<SignUpPage> {
               RoundedButton(
                 text: 'Sign up',
                 press: () async {
-                  //todo sign up code from firebase
                   if (_formkey.currentState.validate()) {
                     var result = await FirebaseAuth.instance
                         .createUserWithEmailAndPassword(

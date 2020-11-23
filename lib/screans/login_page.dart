@@ -41,11 +41,11 @@ class _LoginPageState extends State<LoginPage> {
                   hintText: 'Email',
                   icon: Icons.mail,
                   textEditingController: _emailController,
-                  validatorText: 'Please Fill name field',
+                  validatorText: 'Please Fill email field',
                 ),
                 RoundedPasswordField(
                   textEditingController: _passController,
-                  validatorText: 'Please Fill name field',
+                  validatorText: 'Please Fill password field',
                 ),
                 RoundedButton(
                   text: 'Login',
