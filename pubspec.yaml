@@ -36,7 +36,6 @@ dependencies:
   path: ^1.7.0
   image_picker: ^0.6.7+14
   firebase_core_web: ^0.2.1
-  dash_chat: ^1.1.15
 
 dev_dependencies:
   flutter_test:
@@ -57,7 +56,6 @@ flutter:
   assets:
     - assets/images/chat_bubbles.jpg
     - assets/images/login_img.png
-    - assets/images/ic_launcher.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
