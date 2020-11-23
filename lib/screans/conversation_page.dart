@@ -33,81 +33,83 @@ class _ConversationPageState extends State<ConversationPage> {
                 child: Container(
                   color: Colors.white,
                   child: ListView(
+                    //todo get chat data
+                    reverse: true,
                     children: <Widget>[
                       ListTile(
-                        title: Text('Dabdoob'),
-                        leading: Icon(Icons.av_timer),
-                        subtitle: Text("Sara, ana b7bk"),
-                      ),
-                      ListTile(
-                        title: Text('حبيبتى'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
                         subtitle: Text("12:18 PM"),
                       ),
                       ListTile(
-                        title: Text('Dabdoob'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("متشليش ههم حاجه ونبى"),
+                        subtitle: Text("12:19 PM"),
                       ),
                       ListTile(
-                        title: Text('Dabdoob'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("Sara, ana b7bk"),
+                        subtitle: Text("12:20 PM"),
                       ),
                       ListTile(
-                        title: Text('حبيبتى'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("12:18 PM"),
+                        subtitle: Text("12:21 PM"),
                       ),
                       ListTile(
-                        title: Text('Dabdoob'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("متشليش ههم حاجه ونبى"),
+                        subtitle: Text("12:22 PM"),
                       ),
                       ListTile(
-                        title: Text('Dabdoob'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("Sara, ana b7bk"),
+                        subtitle: Text("12:23 PM"),
                       ),
                       ListTile(
-                        title: Text('حبيبتى'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("12:18 PM"),
+                        subtitle: Text("12:24 PM"),
                       ),
                       ListTile(
-                        title: Text('Dabdoob'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("متشليش ههم حاجه ونبى"),
+                        subtitle: Text("12:25 PM"),
                       ),
                       ListTile(
-                        title: Text('Dabdoob'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("Sara, ana b7bk"),
+                        subtitle: Text("12:26 PM"),
                       ),
                       ListTile(
-                        title: Text('حبيبتى'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("12:18 PM"),
+                        subtitle: Text("12:27 PM"),
                       ),
                       ListTile(
-                        title: Text('Dabdoob'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("متشليش ههم حاجه ونبى"),
+                        subtitle: Text("12:28 PM"),
                       ),
                       ListTile(
-                        title: Text('Dabdoob'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("Sara, ana b7bk"),
+                        subtitle: Text("12:29 PM"),
                       ),
                       ListTile(
-                        title: Text('حبيبتى'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("12:18 PM"),
+                        subtitle: Text("12:30 PM"),
                       ),
                       ListTile(
-                        title: Text('Dabdoob'),
+                        title: Text('Message'),
                         leading: Icon(Icons.av_timer),
-                        subtitle: Text("متشليش ههم حاجه ونبى"),
+                        subtitle: Text("12:31 PM"),
+                      ),
+                      ListTile(
+                        title: Text('Message'),
+                        leading: Icon(Icons.av_timer),
+                        subtitle: Text("12:32 PM"),
                       ),
                     ],
                   ),
@@ -138,10 +140,7 @@ class _ConversationPageState extends State<ConversationPage> {
                             color: Colors.white,
                           ),
                           onPressed: () {
-                            Scaffold.of(context).removeCurrentSnackBar();
-                            Scaffold.of(context).showSnackBar(SnackBar(
-                              content: Text("Call Clicked"),
-                            ));
+                            //todo send message
                           },
                         ),
                       ),

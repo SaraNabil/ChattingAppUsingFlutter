@@ -70,7 +70,8 @@ class _ChatsPageState extends State<ChatsPage> {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return Text("Loading");
           }
-          return new ListView(
+          return ListView(
+            //todo if userId = currentUserId remove user from the chats list
             children: snapshot.data.docs.map((DocumentSnapshot document) {
               userId = document.data()['id'];
               print('user Id -----> $userId');
